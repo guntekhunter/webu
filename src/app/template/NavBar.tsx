@@ -31,7 +31,7 @@ export default function NavBar() {
       <div
         className={`fixed top-0 w-full z-50 transition-transform duration-300 ${
           show ? "-translate-y-full" : "translate-y-0"
-        } backdrop-blur-sm bg-white/30 border-b-[1.5px] border-white/20 border-opacity-[66%]`}
+        } backdrop-blur-sm bg-white/10 border-b-[1.5px] border-white/20 border-opacity-[66%]`}
       >
         <div className="w-full flex justify-center py-[.7rem]">
           <div className="w-[90%] flex justify-between">
@@ -40,7 +40,7 @@ export default function NavBar() {
               <div className="text-[.66rem] font-thin">All For You</div>
             </div>
             <div className="flex items-center">
-              <ul className="flex text-[.7rem] space-x-[2.5rem] text-[#52697F] font-medium opacity-[66%]">
+              <ul className="flex text-[.7rem] space-x-[2.5rem] text-[#0f1317] font-medium opacity-[96%]">
                 <li>Home</li>
                 <li>Tentang Kami</li>
                 <li>Portofolio</li>
