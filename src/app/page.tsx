@@ -86,7 +86,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-4 gap-[1rem] py-10 bg-white">
             <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-              <p className="text-[0.8275rem] text-center font-semibold">
+              <p className="text-[0.8275rem] text-left font-semibold">
                 Tingkatkan Kepercayaan Konsumen
               </p>
               <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
@@ -97,7 +97,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-              <p className="text-[0.8275rem] text-center font-semibold">
+              <p className="text-[0.8275rem] text-left font-semibold">
                 Tampil Lebih Unggul dari Kompetitor
               </p>
               <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
@@ -107,7 +107,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-              <p className="text-[0.8275rem] text-center font-semibold">
+              <p className="text-[0.8275rem] text-left font-semibold">
                 Promosi Lebih Efisien dan Terukur
               </p>
               <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
@@ -119,7 +119,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[2rem]">
-              <p className="text-[0.8275rem] text-center font-semibold">
+              <p className="text-[0.8275rem] text-left font-semibold">
                 Investasi Jangka Panjang
               </p>
               <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
@@ -211,6 +211,258 @@ export default function Home() {
                     Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                     dirancang agar praktis, terjangkau, dan langsung berdampak
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* section 4 */}
+        <section className="flex justify center bg-gradient-to-r from-[#4BA2F6] via-[#9CC7F0] to-[#9FD0FF] rounded-[10px] space-x-[2rem] py-[3rem] px-[3rem]">
+          <div className="relative w-[40%] ">
+            <div className="absolute h-[10rem] z-10 w-[15rem] bottom-0 bg-white rounded-[10px] opacity-[60%]"></div>
+            <div className="absolute h-[10rem] z-10 w-[15rem] right-0 bg-white rounded-[10px] opacity-[60%]"></div>
+            <img
+              src="laptop.png"
+              alt=""
+              width={500}
+              height={500}
+              className="z-20 absolute w-[23rem] left-[2rem]"
+            />
+          </div>
+          <div className="w-[60%]  py-[2rem] space-y-[.7rem]">
+            <h2 className="text-[2.165625rem] font-medium w-full text-white">
+              Clients Business As Is Own
+            </h2>
+            <p className="text-[0.8275rem] text-white">
+              Yups Benar ! Setiap project dari client kami kerjakan sepenuh hati
+              dan kami perlakukan seperti bisnis kami sendiri, sehingga hasil
+              terbaik yang akan Anda dapatkan.
+            </p>
+            <div className="space-x-[1rem]">
+              <button className="bg-[#2E74B7] text-white font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
+                Hubungi Kami
+              </button>
+              <button className="bg-white shadow-md text-[#52697F] opacity-[66%] font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
+                Hubungi Kami
+              </button>
+            </div>
+          </div>
+        </section>
+        {/* section 5 */}
+        <section className="flex space-y-[1rem] pt-[5rem]">
+          <div className="w-full">
+            <h2 className="text-[2.165625rem] font-medium w-full text-center">
+              Harga Layanan Kami
+            </h2>
+            <div className="grid grid-cols-3 w-full space-x-[1rem]  py-[2rem]">
+              <div className="py-[2rem]">
+                <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-white p-[2rem] rounded-[10px]">
+                  <div>
+                    <h3 className="font-medium">Paket Standar</h3>
+                    <p className="text-[0.51125rem]">
+                      Company Profile Bisnis / UMKM / Web Personal / Catalog
+                      Toko Online
+                    </p>
+                  </div>
+
+                  <div className="w-full py-[1rem]">
+                    <p className="text-[0.51125rem] text-center w-full text-[#2E74B7]">
+                      Mulai Dari
+                    </p>
+                    <div className="relative">
+                      <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
+                      <p className="text-[0.51125rem] text-center w-full text-black">
+                        Rp 1.500.000
+                      </p>
+                      <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
+                        Rp1 Juta
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="text-[0.51125rem] space-y-[.3rem]">
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Free Domain
+                      </p>
+                      <p className="text-right">.com / .my.id / .web.id</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        SSL / HTTPS
+                      </p>
+                      <p className="text-right">.com / .my.id / .web.id</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Hosting
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Bandwidth
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Desain Responsive
+                      </p>
+                      <p className="text-right">Yes, Standart</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Desain Logo
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                  </div>
+                  <div className="w-full flex justify-center pt-[2rem]">
+                    <button className="bg-[#2E74B7] text-white font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
+                      Pilih Paket
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-[#2E74B7] p-[2rem] text-white rounded-[10px]">
+                <div>
+                  <h3 className="font-medium">Paket Standar</h3>
+                  <p className="text-[0.51125rem]">
+                    Company Profile Bisnis / UMKM / Web Personal / Catalog Toko
+                    Online
+                  </p>
+                </div>
+
+                <div className="w-full py-[1rem]">
+                  <p className="text-[0.51125rem] text-center w-full text-white">
+                    Mulai Dari
+                  </p>
+                  <div className="relative">
+                    <div className="absolute h-[.5px] w-[18%] bg-white top-[.3rem] left-[41%]"></div>
+                    <p className="text-[0.51125rem] text-center w-full text-white">
+                      Rp 1.500.000
+                    </p>
+                    <h4 className="text-[2.165625rem] font-medium w-full text-center text-white">
+                      Rp1 Juta
+                    </h4>
+                  </div>
+                </div>
+
+                <div className="text-[0.51125rem] space-y-[.3rem]">
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      Free Domain
+                    </p>
+                    <p className="text-right">.com / .my.id / .web.id</p>
+                  </div>
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      SSL / HTTPS
+                    </p>
+                    <p className="text-right">.com / .my.id / .web.id</p>
+                  </div>
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      Hosting
+                    </p>
+                    <p className="text-right">Free</p>
+                  </div>
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      Bandwidth
+                    </p>
+                    <p className="text-right">Free</p>
+                  </div>
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      Desain Responsive
+                    </p>
+                    <p className="text-right">Yes, Standart</p>
+                  </div>
+                  <div className="flex justify-between">
+                    <p className="text-left text-white opacity-[66%]">
+                      Desain Logo
+                    </p>
+                    <p className="text-right">Free</p>
+                  </div>
+                </div>
+                <div className="w-full flex justify-center pt-[4rem]">
+                  <button className="bg-white text-[#2E74B7] font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
+                    Pilih Paket
+                  </button>
+                </div>
+              </div>
+
+              <div className="py-[2rem]">
+                <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-white p-[2rem]">
+                  <div>
+                    <h3 className="font-medium">Paket Standar</h3>
+                    <p className="text-[0.51125rem]">
+                      Company Profile Bisnis / UMKM / Web Personal / Catalog
+                      Toko Online
+                    </p>
+                  </div>
+
+                  <div className="w-full py-[1rem]">
+                    <p className="text-[0.51125rem] text-center w-full text-[#2E74B7]">
+                      Mulai Dari
+                    </p>
+                    <div className="relative">
+                      <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
+                      <p className="text-[0.51125rem] text-center w-full text-black">
+                        Rp 1.500.000
+                      </p>
+                      <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
+                        Rp1 Juta
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="text-[0.51125rem] space-y-[.3rem]">
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Free Domain
+                      </p>
+                      <p className="text-right">.com / .my.id / .web.id</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        SSL / HTTPS
+                      </p>
+                      <p className="text-right">.com / .my.id / .web.id</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Hosting
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Bandwidth
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Desain Responsive
+                      </p>
+                      <p className="text-right">Yes, Standart</p>
+                    </div>
+                    <div className="flex justify-between">
+                      <p className="text-left text-[#52697F] opacity-[66%]">
+                        Desain Logo
+                      </p>
+                      <p className="text-right">Free</p>
+                    </div>
+                  </div>
+                  <div className="w-full flex justify-center pt-[2rem]">
+                    <button className="bg-[#2E74B7] text-white font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
+                      Pilih Paket
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
