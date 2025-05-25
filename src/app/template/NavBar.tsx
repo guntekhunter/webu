@@ -11,7 +11,7 @@ export default function NavBar() {
       const currentScrollY = window.scrollY;
 
       const pageHeight = document.body.scrollHeight;
-      const triggerScroll = pageHeight * 0.3;
+      const triggerScroll = pageHeight * 0.1;
 
       if (currentScrollY > triggerScroll) {
         setShow(currentScrollY < lastScrollY); // Show when scrolling up

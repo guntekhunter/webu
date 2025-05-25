@@ -72,7 +72,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="filter drop-shadow-[0_12px_20px_rgba(46,116,183,0.20)]">
+                <div className="filter drop-shadow-[0_12px_20px_rgba(46,116,183,0.20)] animate-fadeInUp">
                   <img src="/foto.webp" alt="" className="rounded-md" />
                 </div>
               </div>
