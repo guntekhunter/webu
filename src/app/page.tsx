@@ -87,10 +87,10 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-4 gap-[1rem] py-10 bg-white">
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-                <p className="text-[0.8275rem] text-left font-semibold">
+                <p className="text-[1.2rem] text-center font-semibold">
                   Tingkatkan Kepercayaan Konsumen
                 </p>
-                <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                   Website yang profesional memberi kesan bahwa bisnis Anda
                   serius, terpercaya, dan punya identitas jelas. Banyak konsumen
                   melakukan riset online sebelum membeli. Tanpa website, Anda
@@ -98,20 +98,20 @@ export default function Home() {
                 </p>
               </div>
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-                <p className="text-[0.8275rem] text-left font-semibold">
+                <p className="text-[1.2rem] text-center font-semibold">
                   Tampil Lebih Unggul dari Kompetitor
                 </p>
-                <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                   Masih banyak pelaku usaha yang belum punya website. Ini
                   kesempatan Anda untuk tampil lebih profesional dan lebih mudah
                   ditemukan oleh calon pelanggan yang mencarinya lewat Google.
                 </p>
               </div>
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
-                <p className="text-[0.8275rem] text-left font-semibold">
+                <p className="text-[1.2rem] text-center font-semibold">
                   Promosi Lebih Efisien dan Terukur
                 </p>
-                <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                   Website bisa diintegrasikan dengan berbagai tools pemasaran
                   digital seperti Google Ads, SEO, hingga media sosial. Hasil
                   promosi Anda bisa dilacak, diukur, dan terus ditingkatkan—hal
@@ -120,10 +120,10 @@ export default function Home() {
                 </p>
               </div>
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[2rem]">
-                <p className="text-[0.8275rem] text-left font-semibold">
+                <p className="text-[1.2rem] text-center font-semibold">
                   Investasi Jangka Panjang
                 </p>
-                <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                   Berbeda dengan iklan yang hanya aktif selama Anda membayar,
                   website adalah aset digital yang bekerja terus-menerus untuk
                   membangun reputasi dan menjangkau pasar Anda tanpa batas
@@ -154,10 +154,10 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[0.8275rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold">
                       Support Amanah & Responsif
                     </p>
-                    <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                    <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                       Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                       dirancang agar praktis, terjangkau, dan langsung berdampak
                     </p>
@@ -172,10 +172,10 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[0.8275rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold">
                       Murah & Berkulitas
                     </p>
-                    <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                    <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                       Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                       dirancang agar praktis, terjangkau, dan langsung berdampak
                     </p>
@@ -190,10 +190,10 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[0.8275rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold">
                       Customizable & Scalable
                     </p>
-                    <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                    <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                       Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                       dirancang agar praktis, terjangkau, dan langsung berdampak
                     </p>
@@ -208,10 +208,10 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[0.8275rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold">
                       Desain Modern, Sistem Andal
                     </p>
-                    <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                    <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                       Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                       dirancang agar praktis, terjangkau, dan langsung berdampak
                     </p>
@@ -226,10 +226,10 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[0.8275rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold">
                       Spesialis UMKM
                     </p>
-                    <p className="text-[0.51125rem] text-[#52697F] opacity-[66%]">
+                    <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
                       Kami paham tantangan dan kebutuhan UMKM. Solusi kami
                       dirancang agar praktis, terjangkau, dan langsung berdampak
                     </p>
@@ -255,12 +255,12 @@ export default function Home() {
               <h2 className="text-[2.165625rem] font-medium w-full text-white">
                 Clients Business As Is Own
               </h2>
-              <p className="text-[0.8275rem] text-white">
+              <p className="text-[.8rem] text-white">
                 Yups Benar ! Setiap project dari client kami kerjakan sepenuh
                 hati dan kami perlakukan seperti bisnis kami sendiri, sehingga
                 hasil terbaik yang akan Anda dapatkan.
               </p>
-              <div className="space-x-[1rem]">
+              <div className="space-x-[1rem] pt-[.8rem]">
                 <button className="bg-[#2E74B7] text-white font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
                   Hubungi Kami
                 </button>
@@ -281,19 +281,19 @@ export default function Home() {
                   <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-white p-[2rem] rounded-[10px]">
                     <div>
                       <h3 className="font-medium">Paket Standar</h3>
-                      <p className="text-[0.51125rem]">
+                      <p className="text-[.7rem]">
                         Company Profile Bisnis / UMKM / Web Personal / Catalog
                         Toko Online
                       </p>
                     </div>
 
                     <div className="w-full py-[1rem]">
-                      <p className="text-[0.51125rem] text-center w-full text-[#2E74B7]">
+                      <p className="text-[.7rem] text-center w-full text-[#2E74B7]">
                         Mulai Dari
                       </p>
                       <div className="relative">
                         <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
-                        <p className="text-[0.51125rem] text-center w-full text-black">
+                        <p className="text-[.7rem] text-center w-full text-black">
                           Rp 1.500.000
                         </p>
                         <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
@@ -302,7 +302,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="text-[0.51125rem] space-y-[.3rem]">
+                    <div className="text-[.7rem] space-y-[.3rem]">
                       <div className="flex justify-between">
                         <p className="text-left text-[#52697F] opacity-[66%]">
                           Free Domain
@@ -351,19 +351,19 @@ export default function Home() {
                 <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-[#2E74B7] p-[2rem] text-white rounded-[10px]">
                   <div>
                     <h3 className="font-medium">Paket Standar</h3>
-                    <p className="text-[0.51125rem]">
+                    <p className="text-[.7rem]">
                       Company Profile Bisnis / UMKM / Web Personal / Catalog
                       Toko Online
                     </p>
                   </div>
 
                   <div className="w-full py-[1rem]">
-                    <p className="text-[0.51125rem] text-center w-full text-white">
+                    <p className="text-[.7rem] text-center w-full text-white">
                       Mulai Dari
                     </p>
                     <div className="relative">
                       <div className="absolute h-[.5px] w-[18%] bg-white top-[.3rem] left-[41%]"></div>
-                      <p className="text-[0.51125rem] text-center w-full text-white">
+                      <p className="text-[.7rem] text-center w-full text-white">
                         Rp 1.500.000
                       </p>
                       <h4 className="text-[2.165625rem] font-medium w-full text-center text-white">
@@ -372,7 +372,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="text-[0.51125rem] space-y-[.3rem]">
+                  <div className="text-[.7rem] space-y-[.3rem]">
                     <div className="flex justify-between">
                       <p className="text-left text-white opacity-[66%]">
                         Free Domain
@@ -421,19 +421,19 @@ export default function Home() {
                   <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-white p-[2rem]">
                     <div>
                       <h3 className="font-medium">Paket Standar</h3>
-                      <p className="text-[0.51125rem]">
+                      <p className="text-[.7rem]">
                         Company Profile Bisnis / UMKM / Web Personal / Catalog
                         Toko Online
                       </p>
                     </div>
 
                     <div className="w-full py-[1rem]">
-                      <p className="text-[0.51125rem] text-center w-full text-[#2E74B7]">
+                      <p className="text-[.7rem] text-center w-full text-[#2E74B7]">
                         Mulai Dari
                       </p>
                       <div className="relative">
                         <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
-                        <p className="text-[0.51125rem] text-center w-full text-black">
+                        <p className="text-[.7rem] text-center w-full text-black">
                           Rp 1.500.000
                         </p>
                         <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
@@ -442,7 +442,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="text-[0.51125rem] space-y-[.3rem]">
+                    <div className="text-[.7rem] space-y-[.3rem]">
                       <div className="flex justify-between">
                         <p className="text-left text-[#52697F] opacity-[66%]">
                           Free Domain
