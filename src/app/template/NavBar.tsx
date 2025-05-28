@@ -32,10 +32,10 @@ export default function NavBar() {
       <div
         className={`fixed top-0 w-full z-50 transition-transform duration-300 ${
           show ? "translate-y-0" : "-translate-y-full"
-        } backdrop-blur-sm bg-white/10 border-b-[1.5px] border-white/20 border-opacity-[66%]`}
+        } backdrop-blur-sm bg-white/90 border-b-[1.5px] border-white/20 border-opacity-[66%]`}
       >
-        <div className="md:w-full md:flex md:justify-center py-[.7rem] md:space-x-[.5rem] w-full ">
-          <div className="max-w-[90%] w-full mx-auto flex justify-between">
+        <div className="md:w-full md:flex md:justify-center py-[.7rem] md:space-x-[.5rem] w-full">
+          <div className="md:max-w-[90%] max-w-[80%] w-full mx-auto flex justify-between items-center">
             <div className="flex space-x-[.4rem]">
               <div>
                 <img
@@ -43,22 +43,28 @@ export default function NavBar() {
                   alt="start"
                   width={500}
                   height={500}
-                  className="md:w-[2rem] md:mt-[.2rem] w-[2rem]"
+                  className="md:w-[2rem] mt-[.2rem] w-[2rem]"
                 />
               </div>
               <div>
-                <div className="md:text-[1rem] font-bold">WEB U</div>
-                <div className="md:text-[.66rem] font-thin">All For You</div>
+                <div className="md:text-[1rem] text-[1rem] font-bold">
+                  WEB U
+                </div>
+                <div className="md:text-[.66rem] text-[.7rem] font-thin">
+                  All For You
+                </div>
               </div>
             </div>
-            <div className="md:flex items-center hidden">
-              <ul className="flex text-[.7rem] space-x-[2.5rem] text-[#0f1317] font-medium opacity-[96%]">
-                <li>Home</li>
-                <li>Tentang Kami</li>
-                <li>Portofolio</li>
-                <li>Layanan</li>
-                <li>Testimoni</li>
-              </ul>
+            <div className="flex items-center">
+              <div className="md:flex items-center hidden">
+                <ul className="flex text-[.7rem] space-x-[2.5rem] text-[#0f1317] font-medium opacity-[96%]">
+                  <li>Home</li>
+                  <li>Tentang Kami</li>
+                  <li>Portofolio</li>
+                  <li>Layanan</li>
+                  <li>Testimoni</li>
+                </ul>
+              </div>
             </div>
             <div className="md:flex items-center hidden">
               <button className="bg-[#2E74B7] text-white font-medium text-[.7rem] px-[2rem] py-[.5rem] rounded-[10px]">
@@ -78,7 +84,9 @@ export default function NavBar() {
           </div>
         </div>
       </div>
-      <div className="md:w-[90%] w-[80%] flex justify-between">
+
+      {/* navbar stay */}
+      <div className="md:w-[90%] w-[80%] flex justify-between z-[100] bg-white">
         <div>
           <div className="flex space-x-[.4rem]">
             <div>
@@ -87,7 +95,7 @@ export default function NavBar() {
                 alt="start"
                 width={500}
                 height={500}
-                className="md:w-[2rem] md:mt-[.2rem] w-[2rem]"
+                className="md:w-[2rem] mt-[.2rem] w-[2rem]"
               />
             </div>
             <div>
@@ -125,7 +133,16 @@ export default function NavBar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="z-[5] md:hidden absolute bg-white p-[1rem] border border-opacity-[50%] rounded-[10px] right-[1rem] top-[3.8rem]">
+        <div
+          className={`md:hidden fixed w-[70%] z-50 transition-all duration-500 ease-in-out
+    ${
+      show
+        ? "top-[3.8rem] backdrop-blur-sm bg-white/90 border-b-[1.5px] border-white/20 border-opacity-[66%]"
+        : ""
+    }
+    bg-white p-[1rem] border border-opacity-[50%] rounded-[10px] right-0
+     top-[3.8rem] md:text-left text-center`}
+        >
           <ul className="space-y-[1rem]">
             <li>Home</li>
             <li>Tentang Kami</li>

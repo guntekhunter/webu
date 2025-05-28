@@ -9,9 +9,9 @@ export default function Home() {
           <section className="flex justify-center py-[5rem] relative">
             <div className="absolute h-full w-full z-[-1] top-0 bg-[radial-gradient(ellipse_at_center,_rgba(46,116,183,0.9)_0%,_rgba(46,116,183,0)_70%)] opacity-20"></div>
             <div className="w-full justify-center flex">
-              <div className="w-[60%] flex justify-center z-1">
+              <div className="md:w-[60%] w-[90%] flex justify-center z-1">
                 <div className="space-y-[1.6rem] ">
-                  <h1 className="text-[3.50375rem] text-center leading-[1.2]">
+                  <h1 className="md:text-[3.50375rem] text-[2.5rem] text-center leading-[1.2]">
                     Jasa Pembuatan Website Terpercaya
                   </h1>
                   <div className="w-full flex justify-center">
@@ -85,7 +85,7 @@ export default function Home() {
             <h2 className="text-[2.165625rem] font-medium w-full text-center">
               Kenapa Bisnismu Butuh Website?
             </h2>
-            <div className="grid grid-cols-4 gap-[1rem] py-10 bg-white">
+            <div className="grid md:grid-cols-4 grid-cols-1 gap-[1rem] py-10 bg-white">
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
                 <p className="text-[1.2rem] text-center font-semibold">
                   Tingkatkan Kepercayaan Konsumen
@@ -133,9 +133,9 @@ export default function Home() {
             </div>
           </section>
           {/* section 3 */}
-          <section className="grid grid-cols-2 gap-[2rem] py-[3rem] relative">
+          <section className="grid md:grid-cols-2 grid-cols-1 gap-[2rem] py-[3rem] relative">
             <div className="absolute h-full w-full z-[-1] top-0 bg-[radial-gradient(ellipse_at_center,_rgba(162,46,183,0.9)_0%,_rgba(162,46,183,0)_70%)] opacity-10"></div>
-            <div>
+            <div className="px-[2rem] md:px-0">
               <h2 className="text-[2.165625rem] font-medium w-full">
                 Kenapa Kami?
               </h2>
@@ -145,8 +145,8 @@ export default function Home() {
                 text ever since the 1500s
               </p>
             </div>
-            <div>
-              <div className="flex items-center">
+            <div className="md:space-y-0 space-y-[2rem]">
+              <div className="md:flex items-center md:justify-start justify-items-center">
                 <img
                   src="1.png"
                   alt=""
@@ -154,7 +154,7 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[1.2rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold text-center md:text-left">
                       Support Amanah & Responsif
                     </p>
                     <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
@@ -164,7 +164,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="md:flex items-center md:justify-start justify-items-center">
                 <img
                   src="2.png"
                   alt=""
@@ -172,7 +172,7 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[1.2rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold text-center md:text-left">
                       Murah & Berkulitas
                     </p>
                     <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
@@ -182,7 +182,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="md:flex items-center md:justify-start justify-items-center">
                 <img
                   src="3.png"
                   alt=""
@@ -190,7 +190,7 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[1.2rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold text-center md:text-left">
                       Customizable & Scalable
                     </p>
                     <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
@@ -200,7 +200,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="md:flex items-center md:justify-start justify-items-center">
                 <img
                   src="4.png"
                   alt=""
@@ -208,7 +208,7 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[1.2rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold text-center md:text-left">
                       Desain Modern, Sistem Andal
                     </p>
                     <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
@@ -218,7 +218,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="md:flex items-center md:justify-start justify-items-center">
                 <img
                   src="5.png"
                   alt=""
@@ -226,7 +226,7 @@ export default function Home() {
                 />
                 <div>
                   <div className="p-[2rem] space-y-[1rem]">
-                    <p className="text-[1.2rem] font-semibold">
+                    <p className="text-[1.2rem] font-semibold text-center md:text-left">
                       Spesialis UMKM
                     </p>
                     <p className="text-[.7rem] text-[#52697F] opacity-[66%]">
@@ -239,8 +239,8 @@ export default function Home() {
             </div>
           </section>
           {/* section 4 */}
-          <section className="flex justify center bg-gradient-to-r from-[#4BA2F6] via-[#9CC7F0] to-[#9FD0FF] rounded-[10px] space-x-[2rem] py-[3rem] px-[3rem]">
-            <div className="relative w-[40%] ">
+          <section className="flex justify-center bg-gradient-to-r from-[#4BA2F6] via-[#9CC7F0] to-[#9FD0FF] rounded-[10px] md:space-x-[2rem] py-[3rem] md:px-[3rem] px-[1rem] md:text-left text-center ">
+            <div className="relative w-[40%] md:block hidden">
               <div className="absolute h-[10rem] z-10 w-[15rem] bottom-0 bg-white rounded-[10px] opacity-[60%]"></div>
               <div className="absolute h-[10rem] z-10 w-[15rem] right-0 bg-white rounded-[10px] opacity-[60%]"></div>
               <img
@@ -251,7 +251,7 @@ export default function Home() {
                 className="z-20 absolute w-[23rem] left-[2rem]"
               />
             </div>
-            <div className="w-[60%]  py-[2rem] space-y-[.7rem]">
+            <div className="md:w-[60%] w-[90%] md:py-[2rem] md:space-y-[.7rem] space-y-[1rem]">
               <h2 className="text-[2.165625rem] font-medium w-full text-white">
                 Clients Business As Is Own
               </h2>
@@ -276,7 +276,7 @@ export default function Home() {
               <h2 className="text-[2.165625rem] font-medium w-full text-center">
                 Harga Layanan Kami
               </h2>
-              <div className="grid grid-cols-3 w-full space-x-[1rem]  py-[2rem]">
+              <div className="grid md:grid-cols-3 grid-cols-1 w-full space-x-[1rem]  py-[2rem]">
                 <div className="py-[2rem]">
                   <div className="filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] bg-white p-[2rem] rounded-[10px]">
                     <div>
