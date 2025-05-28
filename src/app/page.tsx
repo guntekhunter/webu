@@ -82,9 +82,11 @@ export default function Home() {
           </section>
           {/* section 2 */}
           <section className="space-y-[1rem]">
-            <h2 className="text-[2.165625rem] font-medium w-full text-center">
-              Kenapa Bisnismu Butuh Website?
-            </h2>
+            <div className="flex justify-center">
+              <h2 className="md:text-[2.165625rem] text-[1.5rem] font-medium md:w-full w-[80%] text-center">
+                Kenapa Bisnismu Butuh Website?
+              </h2>
+            </div>
             <div className="grid md:grid-cols-4 grid-cols-1 gap-[1rem] py-10 bg-white">
               <div className="p-[2rem] rounded-[10px] bg-white filter drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] space-y-[1rem]">
                 <p className="text-[1.2rem] text-center font-semibold">
@@ -292,13 +294,13 @@ export default function Home() {
                         Mulai Dari
                       </p>
                       <div className="relative">
-                        <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
+                        <div className="absolute h-[.5px] w-[18%] bg-black top-[.4rem] left-[41%]"></div>
                         <p className="text-[.7rem] text-center w-full text-black">
                           Rp 1.500.000
                         </p>
-                        <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
+                        {/* <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
                           Rp1 Juta
-                        </h4>
+                        </h4> */}
                       </div>
                     </div>
 
@@ -362,13 +364,13 @@ export default function Home() {
                       Mulai Dari
                     </p>
                     <div className="relative">
-                      <div className="absolute h-[.5px] w-[18%] bg-white top-[.3rem] left-[41%]"></div>
+                      <div className="absolute h-[.5px] w-[18%] bg-white top-[.4rem] left-[41%]"></div>
                       <p className="text-[.7rem] text-center w-full text-white">
                         Rp 1.500.000
                       </p>
-                      <h4 className="text-[2.165625rem] font-medium w-full text-center text-white">
+                      {/* <h4 className="text-[2.165625rem] font-medium w-full text-center text-white">
                         Rp1 Juta
-                      </h4>
+                      </h4> */}
                     </div>
                   </div>
 
@@ -432,13 +434,13 @@ export default function Home() {
                         Mulai Dari
                       </p>
                       <div className="relative">
-                        <div className="absolute h-[.5px] w-[18%] bg-black top-[.3rem] left-[41%]"></div>
+                        <div className="absolute h-[.5px] w-[18%] bg-black top-[.4rem] left-[41%]"></div>
                         <p className="text-[.7rem] text-center w-full text-black">
                           Rp 1.500.000
                         </p>
-                        <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
+                        {/* <h4 className="text-[2.165625rem] font-medium w-full text-center text-[#2E74B7]">
                           Rp1 Juta
-                        </h4>
+                        </h4> */}
                       </div>
                     </div>
 
@@ -504,7 +506,7 @@ export default function Home() {
             <div className="absolute h-full w-full z-[-1] backdrop-blur-sm bg-white rounded-[10px] opacity-70 border border-opacity-5 border-[#3a3a3a]"></div>
             <div className="py-[4rem]">
               <div className="w-full justify-center flex">
-                <h2 className="text-[2.165625rem] font-medium w-[80%] text-center text-white">
+                <h2 className="md:text-[2.165625rem] font-medium w-[80%] text-center md:text-white text-[#2E74B7]">
                   Tunggu Apa Lagi ? Hubungi Kami Sekarang Dan Optimalkan Seluruh
                   Potensi Online Pada Bisnis Anda Sekarang!
                 </h2>
@@ -518,8 +520,8 @@ export default function Home() {
           </section>
         </div>
       </div>
-      <footer className="bg-[#2E74B7] mt-[5rem] py-[5rem] px-[5%] text-white">
-        <div className="w-[90] grid grid-cols-3">
+      <footer className="bg-[#2E74B7] mt-[5rem] py-[5rem] px-[5%] text-white flex justify-center">
+        <div className="md:w-[90%] w-[70%] grid md:grid-cols-3 grid-cols-2 gap-[1rem]">
           <div className="space-y-[1rem]">
             <div>
               <img src="logo white.png" alt="" className="w-[2rem]" />
